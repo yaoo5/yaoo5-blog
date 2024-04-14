@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "yaoo5.github.io",
+  description: "yaoo5.github.io",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
