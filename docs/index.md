@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "我的个人博客."
+  name: "yaoo5的个人博客."
   # text: My great project tagline
-  tagline: "我是一个前端开发工程师。主要技术栈：Vuejs、Node.js、Typescript"
+  tagline: "我是一个前端开发工程师, 主要技术栈：Vuejs、Node.js、Typescript"
   actions:
     - theme: brand
       text: 关于我
