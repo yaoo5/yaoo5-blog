@@ -1,3 +1,4 @@
-# yaoo5-blog
+# yaoo5.github.io
 
-It's my blog.
+visit https://yaoo5.github.io learn something.
+
