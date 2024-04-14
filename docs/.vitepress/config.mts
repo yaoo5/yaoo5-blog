@@ -6,6 +6,9 @@ export default defineConfig({
   description: "I'm yaoo5.",
   lastUpdated: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     lastUpdated: {
       text: '最后更新时间'
     },
