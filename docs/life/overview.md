@@ -1,2 +1,4 @@
-# life
-空空如也，开发在熬夜写稿中~~
+# 生活感悟
+
+## 读书
+- [《每一天梦想练习》](/life/reading/everyday-dream-exercise.md)

@@ -14,7 +14,7 @@ export default defineConfig({
       // { text: '前端', link: '/front-end/overview' },
       // { text: 'Node.js', link: '/node.js/overview' },
       // { text: '算法', link: '/leetcode/overview' },
-      // { text: '生活感悟', link: '/life/overview' },
+      { text: '生活感悟', link: '/life/overview' },
       { text: '更新日志', link: '/changelog' },
       { text: '关于我', link: '/about' }
     ],
@@ -29,7 +29,14 @@ export default defineConfig({
         { text: '更新日志', link: '/changelog.md' }
       ],
       '/life': [
-        { text: '更新日志', link: '/changelog.md' }
+        { text: 'Overview', link: '/life/overview.md' },
+        { text: '更新日志', link: '/changelog.md' },
+        {
+          text: '读书',
+          items: [
+            { text: '《每一天梦想练习》', link: '/life/reading/everyday-dream-exercise' },
+          ]
+        }
       ],
     },
     socialLinks: [

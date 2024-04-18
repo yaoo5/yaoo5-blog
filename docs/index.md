@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的个人博客."
+  name: "我的私人空间."
   # text: My great project tagline
   tagline: "我是一个前端开发工程师。主要技术栈：Vuejs、Node.js、Typescript"
   actions:
@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: 算法
-    details: 算法的重要性无可言喻。有幸在工作中担任过面试官的角色，算法写不出来面试基本就over了。
+    details: 算法的重要性不言而喻，面试中的必考题。
   - title: 前端
     details: "主要语言: Vue.js、Typescript、Webpack/Vite、Nuxt.js"
   - title: Node.js
