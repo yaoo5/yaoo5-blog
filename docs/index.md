@@ -14,8 +14,8 @@ hero:
       text: 更新日志
       link: /changelog
     - theme: alt
-      text: 【转】如何搭建个人博客
-      link: https://jzplp.github.io/2023/blog-github.html
+      text: 【原】如何搭建个人博客
+      link: /tech/blog-vitepress-github
 
 features:
   - title: 算法
