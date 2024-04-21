@@ -37,5 +37,5 @@
 ## 挑战题目
 - [17.电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/)
 - [39.组合总和](https://leetcode.cn/problems/combination-sum/description/)
-- [93.复原IP地址](https://leetcode.cn/problems/restore-ip-addresses/description/)
-- [131.分割回文串](https://leetcode.cn/problems/palindrome-partitioning/description/)
+- [93.复原IP地址](https://leetcode.cn/problems/restore-ip-addresses/description/) (有点超纲，像动态规划)
+- [131.分割回文串](https://leetcode.cn/problems/palindrome-partitioning/description/) (有点超纲，像动态规划)
