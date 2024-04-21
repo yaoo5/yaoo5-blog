@@ -11,30 +11,45 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: '算法', link: '/leetcode/overview' },
       { text: '技术博客', link: '/tech/overview' },
+      { text: '算法专题', link: '/leetcode/overview' },
       { text: '生活感悟', link: '/life/overview' },
       { text: '更新日志', link: '/changelog' },
       { text: '关于我', link: '/about' }
     ],
     sidebar: {
+      '/leetcode': [
+        { text: '目录', link: '/leetcode/overview' },
+        { text: '回溯法', link: '/leetcode/backtrack' },
+        {
+          text: '参考',
+          items: [
+            {
+              text: 'https://greyireland.gitbook.io',
+              link: 'https://greyireland.gitbook.io/algorithm-pattern',
+            }
+          ]
+      }
+      ],
       '/tech': [
         { text: '目录', link: '/tech/overview.md' },
         {
-          text: '04.19｜如何搭建个人博客',
-          link: '/tech/blog-vitepress-github',
+          text: '2024',
+          items: [
+            { 
+              text: '04-19 | 如何搭建个人博客',
+              link: '/tech/blog-vitepress-github',
+             }
+          ]
         },
         { text: '更新日志', link: '/changelog.md' },
-      ],
-      '/leetcode': [
-        { text: '更新日志', link: '/changelog.md' }
       ],
       '/life': [
         { text: 'Overview', link: '/life/overview.md' },
         {
           text: '读书',
           items: [
-            { text: '《每一天梦想练习》', link: '/life/reading/everyday-dream-exercise' },
+            { text: '2404 |《每一天梦想练习》', link: '/life/reading/everyday-dream-exercise' },
           ]
         },
         { text: '更新日志', link: '/changelog.md' },
