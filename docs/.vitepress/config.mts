@@ -6,6 +6,10 @@ export default defineConfig({
   description: "I'm yaoo5.",
   lastUpdated: true,
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/yaoo5/yaoo5.github.io/blob/main/docs/:path',
+      text: '在Github上编辑此页'
+    },
     lastUpdated: {
       text: '最后更新时间'
     },
@@ -36,10 +40,8 @@ export default defineConfig({
         {
           text: '2024',
           items: [
-            { 
-              text: '04-19 | 如何搭建个人博客',
-              link: '/tech/blog-vitepress-github',
-             }
+            { text: '04-26 | 常见限流算法', link: '/tech/rate-limit'},
+            { text: '04-19 | 如何搭建个人博客', link: '/tech/blog-vitepress-github'},
           ]
         },
         { text: '更新日志', link: '/changelog.md' },
