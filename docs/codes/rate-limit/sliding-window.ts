@@ -72,7 +72,10 @@ export function slidingWindow(key = 'slidingWindow', max = 5) {
  * @param duration
  * @param smallWindow
  */
-export function calcWindowStart(duration: number, smallWindow: number): number {
+export function calcWindowStart(
+    duration: number,
+    smallWindow: number
+): number {
     const now = Date.now();
     const lastWindowLen = now % smallWindow;
     const dur = duration * 1000;

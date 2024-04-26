@@ -36,25 +36,24 @@ export function leakyBucket(
       local capacity = tonumber(ARGV[2])
       local outRate = tonumber(ARGV[3])
       
-      -- Step 1: 获取上次出水时间
-      local max_score = redis.call('ZREVRANGE', redisKey, 0, 0)
-      local lastOperateTime = max_score[0] or max_score[1] or 0
-        
-      -- Step 2: 获取当前水量
+      -- Step 1: 清除过期水滴，并获取当前水量
       redis.call('ZREMRANGEBYSCORE', redisKey, '-inf', now);
       local water = tonumber(redis.call('zcard', redisKey))
       
+      -- Step 2：如果水量小于容量，则继续加水
       if water < capacity then
         local interval = math.floor(1000 / outRate)
-        local nextOperateTime = math.max(lastOperateTime + interval, now)
-        redis.call('ZADD', redisKey, nextOperateTime, nextOperateTime)
-        return nextOperateTime
+        local max_score = redis.call('ZREVRANGE', redisKey, 0, 0)
+        local lastOperateTime = max_score[0] or 0
+        local currOperateTime = math.max(lastOperateTime + interval, now)
+        redis.call('ZADD', redisKey, currOperateTime, currOperateTime)
+        return currOperateTime
       else
         return -1
       end
     `;
         const now = Date.now();
-        const nextOperateTime = await redis.eval(
+        const currOperateTime = await redis.eval(
             luaScript,
             1,
             key,
@@ -63,11 +62,11 @@ export function leakyBucket(
             outRate.toString(),
         );
 
-        if (nextOperateTime && +nextOperateTime < 0) {
+        if (currOperateTime && +currOperateTime < 0) {
             ctx.status = 429;
             ctx.body = 'Too many Requests. Try again later.';
         } else {
-            await sleep(+nextOperateTime - now);
+            await sleep(+currOperateTime - now);
             await next();
         }
     }
