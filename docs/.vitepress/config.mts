@@ -5,6 +5,9 @@ export default defineConfig({
   title: "yaoo5",
   description: "I'm yaoo5.",
   lastUpdated: true,
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     editLink: {
       pattern: 'https://github.com/yaoo5/yaoo5.github.io/blob/main/docs/:path',
@@ -25,6 +28,7 @@ export default defineConfig({
       '/leetcode': [
         { text: '目录', link: '/leetcode/overview' },
         { text: '回溯法', link: '/leetcode/backtrack' },
+        { text: '动态规划', link: '/leetcode/dp' },
         {
           text: '参考',
           items: [
