@@ -1,4 +1,4 @@
-# 动态规划
+# 动态规划(草稿)
 
 ## [45.跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/description/)
 
