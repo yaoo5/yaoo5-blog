@@ -9,6 +9,10 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
+    outline: {
+      level: [2, 4],
+      label: '页面导航'
+    },
     editLink: {
       pattern: 'https://github.com/yaoo5/yaoo5.github.io/blob/main/docs/:path',
       text: '在Github上编辑此页'
