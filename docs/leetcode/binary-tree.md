@@ -1,5 +1,28 @@
 # 二叉树
 
+## 基本功：二叉树遍历
+
+### 前序遍历
+<<< @/codes/leetcode/common/binary-tree.ts#preOrder
+
+### 前序遍历非递归
+
+### 中序遍历
+<<< @/codes/leetcode/common/binary-tree.ts#inOrder
+
+### 中序遍历非递归
+
+### 后序遍历
+<<< @/codes/leetcode/common/binary-tree.ts#postOrder
+
+### 后序遍历非递归
+
+### BFS 层次遍历
+<<< @/codes/leetcode/common/binary-tree.ts#bfs
+
+### DFS 深序搜索
+<<< @/codes/leetcode/common/binary-tree.ts#dfs
+
 ## [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/)
 
 ### 题目描述

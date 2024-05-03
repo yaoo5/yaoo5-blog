@@ -9,3 +9,53 @@ export class TreeNode {
         this.right = (right===undefined ? null : right)
     }
 }
+
+
+// #region preOrder
+function preOrder(root: TreeNode | null) {
+    let result: number[] = [];
+    if (root) {
+        result.push(root.val);
+        result = result.concat(preOrder(root.left));
+        result = result.concat(preOrder(root.right));
+    }
+    return result;
+}
+// #endregion preOrder
+
+// #region inOrder
+function inOrder(root: TreeNode | null) {
+    let result: number[] = [];
+    if (root) {
+        result = result.concat(inOrder(root.left));
+        result.push(root.val);
+        result = result.concat(inOrder(root.right));
+    }
+    return result;
+}
+// #endregion inOrder
+
+// #region postOrder
+function postOrder(root: TreeNode | null) {
+    let result: number[] = [];
+    if (root) {
+        result = result.concat(postOrder(root.left));
+        result = result.concat(postOrder(root.right));
+        result.push(root.val);
+    }
+    return result;
+}
+// #endregion postOrder
+
+// #region bfs
+function bfs(root: TreeNode | null) {
+    let result: number[] = [];
+
+    
+
+    return result;
+}
+// #endregion bfs
+
+// #region dfs
+// #endregion dfs
