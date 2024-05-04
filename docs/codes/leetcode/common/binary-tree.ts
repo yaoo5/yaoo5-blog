@@ -48,14 +48,27 @@ function postOrder(root: TreeNode | null) {
 // #endregion postOrder
 
 // #region bfs
-function bfs(root: TreeNode | null) {
-    let result: number[] = [];
+function bfs(root: TreeNode | null): number[][] {
+    let result: number[][] = [];
+    const stack: TreeNode[] = [];
 
-    
+    (root !== null) && stack.push(root);
+
+    while(stack.length) {
+        let len = stack.length;
+        const row: number[] = [];
+
+        while(len--) {
+            const leaf = stack.shift();
+            if (leaf) {
+                row.push(leaf?.val);
+                leaf.left && stack.push(leaf.left);
+                leaf.right && stack.push(leaf.right);
+            }
+        }
+        result.push(row);
+    }
 
     return result;
 }
 // #endregion bfs
-
-// #region dfs
-// #endregion dfs

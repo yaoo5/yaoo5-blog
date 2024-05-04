@@ -18,6 +18,30 @@
  */
 import { TreeNode } from "./common/binary-tree";
 
+function better() {
+    // #region code-better
+    function isBalanced(root: TreeNode | null): boolean {
+        return maxDepth(root) !== -1;
+    }
+
+    function maxDepth(root: TreeNode | null): number {
+        if (root === null) return 0;
+
+        const leftDepth = maxDepth(root.left);
+        const rightDepth = maxDepth(root.right);
+
+        if (
+            leftDepth === -1 || rightDepth === -1
+            || leftDepth - rightDepth > 1 || rightDepth - leftDepth > 1
+        ) {
+            return -1;
+        }
+
+        return Math.max(leftDepth, rightDepth) + 1
+    }
+    // #endregion code-better
+}
+
 // #region code
 function isBalanced(root: TreeNode | null): boolean {
     if (root === null) return true;

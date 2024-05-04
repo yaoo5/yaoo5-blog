@@ -19,9 +19,6 @@
 import { TreeNode } from "./common/binary-tree";
 
 // #region code
-/**
- * 好像有更优解
- */
 function isValidBST(root: TreeNode | null): boolean {
     const order = preOrder(root);
 
