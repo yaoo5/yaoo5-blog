@@ -1,6 +1,9 @@
 # 更新日志
 
-## 2024
+### 2024-05 May
+- 2024-05-04 13:00 | feat: 新增文章 [《二叉树》](/leetcode/binary-tree)
+
+### 2024-04 April
 - 2024-04-26 16:00 | feat: 新增文章 [《常见限流算法》](/tech/rate-limit)
 - 2024-04-21 18:00 | feat: 新增文章 [《回溯法》](/leetcode/backtrack)
 - 2024-04-19 09:30 | feat: 新增文章 [《如何搭建个人博客》](/tech/blog-vitepress-github)
