@@ -49,6 +49,7 @@ export default defineConfig({
         {
           text: '2024',
           items: [
+            { text: '05-04 | 正则表达式', link: '/tech/regexp'},
             { text: '04-26 | 常见限流算法', link: '/tech/rate-limit'},
             { text: '04-19 | 如何搭建个人博客', link: '/tech/blog-vitepress-github'},
           ]
