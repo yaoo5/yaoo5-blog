@@ -33,6 +33,7 @@ export default defineConfig({
         { text: '目录', link: '/leetcode/overview' },
         { text: '回溯法', link: '/leetcode/backtrack' },
         { text: '二叉树', link: '/leetcode/binary-tree' },
+        { text: '排序算法', link: '/leetcode/sort' },
         // { text: '动态规划', link: '/leetcode/dp' },
         {
           text: '参考',

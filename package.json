@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
@@ -18,5 +18,8 @@
     "koa": "^2.15.3",
     "ts-node": "^10.9.2",
     "vitepress": "^1.1.0"
+  },
+  "dependencies": {
+    "vitest": "^1.6.0"
   }
 }
