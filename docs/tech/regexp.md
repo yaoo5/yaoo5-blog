@@ -46,16 +46,16 @@
 ## 正则利器
 
 ::: tip 尤雨溪推荐的工具
-工具只推荐一个正则可视化工具，[https://regexp.com](https://regexp.com)。
+工具只推荐一个正则可视化工具， [https://regexper.com](https://regexper.com)。
 :::
 
 **举例**
 
-这里有个正则 `/(\w+):\/\/([^/:]+)(:\d*)?([^# ]*)/`，来看看**[https://regexp.com](https://regexp.com)** 解析的结果。
+这里有个正则 `/(\w+):\/\/([^/:]+)(:\d*)?([^# ]*)/`，来看看**[https://regexper.com](https://regexper.com)** 解析的结果。
 
 ![](/tech/images/regexp_result.png)
 
-**一般我用 [https://regexp.com](https://regexp.com) 来分析看不懂的正则，或者确认正则写的是否正确。**
+**一般我用 [https://regexper.com](https://regexper.com) 来分析看不懂的正则，或者确认正则写的是否正确。**
 
 ## 练习题 
 
