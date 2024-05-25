@@ -23,6 +23,15 @@
 
 <<< @/codes/leetcode/common/binary-tree.ts#bfs
 
+## [94.二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+
+##### 题目描述
+<<< @/codes/leetcode/94.binary-tree-inorder-traversal.ts#problem
+
+##### 代码
+<<< @/codes/leetcode/94.binary-tree-inorder-traversal.ts#code
+
+
 ## [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/)
 
 ##### 题目描述
