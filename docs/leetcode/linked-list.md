@@ -45,10 +45,10 @@
 
 
 ## [141.环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)
-
 ##### 题目描述
-
+<<< @/codes/leetcode/141.linked-list-cycle.ts#problem
 ##### 代码
+<<< @/codes/leetcode/141.linked-list-cycle.ts#code
 
 
 ## [142.环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/)
@@ -73,9 +73,9 @@
 
 
 ## [206.反转链表](https://leetcode.cn/problems/reverse-linked-list/description/)
-
 ##### 题目描述
-
+<<< @/codes/leetcode/206.reverse-linked-list.ts#problem
 ##### 代码
+<<< @/codes/leetcode/206.reverse-linked-list.ts#code
 
 
