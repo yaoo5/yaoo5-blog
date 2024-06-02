@@ -1,5 +1,8 @@
 # 更新日志
 
+### 2024-06 June
+- 2024-06-02 17:30 | feat: 新增文章 [《链表》](/leetcode/linked-list)
+
 ### 2024-05 May
 - 2024-05-25 20:00 | feat: 新增文章 [《栈和队列》](/leetcode/stack_queue)
 - 2024-05-12 13:00 | feat: 新增文章 [《排序算法》](/leetcode/sort)

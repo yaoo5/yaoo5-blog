@@ -8,7 +8,7 @@
 
 - :white_check_mark: [栈和队列](/leetcode/stack_queue)
   
-- 链表
+- :white_check_mark: [链表](/leetcode/linked-list)
 
 - 动态规划
 
