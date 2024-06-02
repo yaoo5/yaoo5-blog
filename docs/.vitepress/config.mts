@@ -35,6 +35,7 @@ export default defineConfig({
         { text: '二叉树', link: '/leetcode/binary-tree' },
         { text: '排序算法', link: '/leetcode/sort' },
         { text: '栈和队列', link: '/leetcode/stack_queue' },
+        { text: '链表', link: '/leetcode/linked-list' },
         // { text: '动态规划', link: '/leetcode/dp' },
         {
           text: '参考',

@@ -1,3 +1,3 @@
 .main .vp-doc code {
-    white-space: unset;
+    white-space: pre-wrap;
 }
