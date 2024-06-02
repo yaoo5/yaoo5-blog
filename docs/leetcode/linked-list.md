@@ -31,17 +31,14 @@
 
 
 ## [92.反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/description/)
-
 ##### 题目描述
-
+<<< @/codes/leetcode/92.reverse-linked-list-ii.ts#problem
 ##### 代码
+<<< @/codes/leetcode/92.reverse-linked-list-ii.ts#code
 
 
 ## [138.随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/description/)
-
-##### 题目描述
-
-##### 代码
+> 太难了，不想做。
 
 
 ## [141.环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)
@@ -52,24 +49,24 @@
 
 
 ## [142.环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/)
-
 ##### 题目描述
-
+<<< @/codes/leetcode/142.linked-list-cycle-ii.ts#problem
 ##### 代码
+<<< @/codes/leetcode/142.linked-list-cycle-ii.ts#code
 
 
 ## [143.重排链表](https://leetcode.cn/problems/reorder-list/description/)
 
-##### 题目描述
+> **有点挑战性**：寻找链表中点 + 链表逆序 + 合并链表
 
+##### 题目描述
+<<< @/codes/leetcode/143.reorder-list.ts#problem
 ##### 代码
+<<< @/codes/leetcode/143.reorder-list.ts#code
 
 
 ## [148.排序链表](https://leetcode.cn/problems/sort-list/description/)
-
-##### 题目描述
-
-##### 代码
+> 太难了，不想做。
 
 
 ## [206.反转链表](https://leetcode.cn/problems/reverse-linked-list/description/)
