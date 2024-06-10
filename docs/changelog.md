@@ -1,6 +1,7 @@
 # 更新日志
 
 ### 2024-06 June
+- 2024-06-10 09:10 | feat: 新增文章 [《滑动窗口思想》](/leetcode/sliding-window)
 - 2024-06-02 17:30 | feat: 新增文章 [《链表》](/leetcode/linked-list)
 
 ### 2024-05 May
