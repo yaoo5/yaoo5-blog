@@ -37,6 +37,7 @@ export default defineConfig({
         { text: '栈和队列', link: '/leetcode/stack_queue' },
         { text: '链表', link: '/leetcode/linked-list' },
         { text: '滑动窗口思想', link: '/leetcode/sliding-window' },
+        { text: "递归思维", link: "/leetcode/recursion" },
         // { text: '动态规划', link: '/leetcode/dp' },
         {
           text: '参考',
