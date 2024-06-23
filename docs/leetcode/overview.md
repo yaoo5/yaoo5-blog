@@ -12,13 +12,13 @@
 
 - :white_check_mark: [滑动窗口思想](/leetcode/sliding-window)
 
+- :white_check_mark: [递归思维](/leetcode/recursion)
+
 - 动态规划
 
 - 二进制
 
 - 二分搜索
-
-- 递归思维
 
 - 二叉搜索树
 
